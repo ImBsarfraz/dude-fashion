@@ -7,7 +7,7 @@ export default function Footer(){
         <>
                 {/* fixed  buttons */}
         
-                <ul className="buttons">
+                <ul className="buttons d-none d-md-block">
               <li><div className="fbtn"><a href="https://www.instagram.com/dude_fashion_boutique/"><button className="btn1"><i className="fa fa-instagram"></i></button></a></div></li>
               <li><div className="fbtn"><a href="tel:+7843030127"><button className="btn2"><i className="fa fa-phone"></i></button></a></div></li>
               <li><div className="fbtn"><a href="https://wa.me/7843030127" target="_blank"><button className="btn3"><i className="fa fa-whatsapp"></i></button></a></div></li>

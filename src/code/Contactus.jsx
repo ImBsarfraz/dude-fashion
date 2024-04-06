@@ -4,7 +4,7 @@ import "./style.css";
 export default function Contactus(){
     return(
         <>
-        <h1>Contactus</h1>
+        <h1 className="bg-dark">Contactus</h1>
         </>
     )
 }

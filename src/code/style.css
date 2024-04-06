@@ -1,0 +1,916 @@
+:root{
+    --bg-color:#1f242d;
+    --second-bg-color:#323946;
+    --text-color:#fff;
+    --main-color:rgb(152, 147, 240);  
+}
+html{
+    font-size: 80.5%;
+    overflow-x: hidden;
+
+}
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+body{
+    background-color: #ebf2fc;
+}
+
+
+/* .nav2 .container-fluid .row{
+  position: sticky;
+  top: 0%;
+} */
+.dropdown-menu{
+    display: none !important;
+    width: 200px;
+    text-align: center;
+    background: rgb(4,1,56);
+    background: linear-gradient(90deg, rgba(4,1,56,1) 0%, rgba(141,141,173,1) 100%, rgba(16,155,192,1) 100%, rgba(0,212,255,1) 100%);
+    border: none;
+    border-radius: 0px;
+
+}
+.dropdown-menu .aboutl{
+    color: #bdc9f0 !important;
+ 
+}
+
+.nav-item:hover .dropdown-menu{
+    display: inline-block !important;
+}
+.nav1{
+    background: rgb(4,1,56);
+    background: linear-gradient(90deg, rgba(4,1,56,1) 0%, rgba(141,141,173,1) 100%, rgba(16,155,192,1) 100%, rgba(0,212,255,1) 100%);
+    color: #bdc9f0;
+}
+.nav1 .btn1{
+    width: 100px;
+    height: 20px;
+    background: rgb(4,1,56);
+    background: linear-gradient(90deg, rgb(46, 43, 99) 0%, rgba(141,141,173,1) 100%, rgba(16,155,192,1) 100%, rgba(0,212,255,1) 100%);
+    color: #bdc9f0;
+    border: none;
+    font-weight: bold;
+    transition-duration: 1s;
+} 
+.nav1 .btn1:hover{
+    background: rgb(4,1,56);
+    border-radius: 10px;
+}
+
+.nav1 a{
+    text-decoration: none;
+    color: #bdc9f0;
+}
+/* .nav2 .row{
+    position: absolute;
+    position: sticky;
+    top: 0;
+    height: auto;
+} */
+.nav2 .container-fluid .col-md-3 h4{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1b264c !important;
+    font-weight: bolder;
+    position: relative;
+    top: 14px;
+}
+.nav2 .container-fluid .col-md-3 .span1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #5a6ba9 !important;
+    font-weight: 100;
+    
+}
+.nav2 nav .nav-link{
+    color: rgb(4,1,56);
+    font-size: 16px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+.nav2 nav .nav-link:hover{
+    color: #5a6ba9 !important;
+}
+.nav2 .btn1{
+    width: 100px;
+    height: 40px;
+    background: rgb(4,1,56);
+    background: linear-gradient(90deg, rgb(46, 43, 99) 0%, rgba(141,141,173,1) 100%, rgba(16,155,192,1) 100%, rgba(0,212,255,1) 100%);
+    color: #bdc9f0;
+    border: none;
+    transition-duration: 1s;
+} 
+.nav2 .btn1:hover{
+    background: rgb(4,1,56);
+    border-radius: 10px;
+}
+.nav2 .col-2 a{
+    text-decoration: none !important;
+}
+.nav2 .container-fluid .col-3 h3{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #1b264c;;
+}
+.nav2{
+    border-bottom: 1px solid #5a6ba9;
+}
+
+.nav3{
+    background: rgb(4,1,56);
+    background: linear-gradient(90deg, rgba(4,1,56,1) 0%, rgba(141,141,173,1) 100%, rgba(16,155,192,1) 100%, rgba(0,212,255,1) 100%);
+    color: #bdc9f0;
+    text-align: center;
+}
+
+.index1 .carousel-inner img{
+ width: 100%;
+ height: 500px;
+
+}
+.index1 .carousel-item h6{
+    color: rgb(4,1,56);
+    font-weight: bold;
+
+}
+.index1 .carousel-item h5{
+    font-weight: bold;
+    color: rgb(4,1,56);
+
+}
+.index1 .carousel-item p{
+    font-weight: bold;
+    color: rgb(4,1,56);
+
+}
+.index1 .carousel-item .spani1{
+    color: #a1b6d4;
+
+}
+.index2 h6{
+    color: rgb(4,1,56);
+    font-size: 20px;
+}
+.index2 .spani2{
+    color: #a1b6d4;
+}
+.index2 .row1{
+    background-color: #7987bd;
+}
+.index2 .row2{
+    background-color: #7987bd;
+}
+.index2 .portfolio_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem ;
+
+}
+.index2 .portfolio_container .portfolio_box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+}
+.index2 img{
+    width: 100%;
+    transition: .5s ease;
+}
+.index2 .portfolio_box:hover img {
+    transform: scale(1.1);
+}
+
+/* portfolio1 */
+.portfolio{
+    background-color: #7987bd;
+    padding: 50px;
+
+}
+.portfolio h2{
+    margin-bottom: 4rem;
+    
+}
+.portfolio .heading{
+    color: #5a6ba9;
+    text-align: center;
+
+}
+
+.portfolio span{
+    color: #1b264c;
+
+}
+.portfolio_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 2.5rem ;
+
+}
+
+.portfolio_container .portfolio_box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+}
+.portfolio img{
+    width: 100%;
+    transition: .5s ease;
+}
+.portfolio_box:hover img {
+    transform: scale(1.1);
+}
+.portfolio_box .portfolio_layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+.portfolio_box:hover .portfolio_layer{
+    transform: translateY(0);
+}
+.portfolio_layer h6{
+    /* margin-right: 25px; */
+    text-align: center;
+    font-size: 20px;
+}
+
+.portfolio_layer p{
+    font-size: 17px;
+    margin: 3rem 0 1rem;
+}
+.portfolio_layer a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: var(--text-color);
+    border-radius: 50%;
+    margin-top: 20px;
+    text-decoration: none;
+    /* font-size: 20px; */
+
+}
+.portfolio_layer a i{
+    font-size: 2rem;
+    color: var(--second-bg-color);
+}
+.portfolio1{
+    background-color: #7987bd;
+    padding: 50px;
+
+}
+.portfolio1 h2{
+    margin-bottom: 4rem;
+    
+}
+.portfolio1 .heading{
+    color: #5a6ba9;
+    text-align: center;
+
+}
+
+.portfolio1 span{
+    color: #1b264c;
+
+}
+.portfolio1 .portfolio_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2.5rem ;
+
+}
+
+.portfolio1 .portfolio_container .portfolio_box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+}
+.portfolio1 img{
+    width: 100%;
+    transition: .5s ease;
+}
+.portfolio1 .portfolio_box:hover img {
+    transform: scale(1.1);
+}
+.portfolio1 .portfolio_box .portfolio_layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+.portfolio1 .portfolio_box:hover .portfolio_layer{
+    transform: translateY(0);
+}
+.portfolio1 .portfolio_layer h6{
+    /* margin-right: 25px; */
+    text-align: center;
+    font-size: 20px;
+}
+
+.portfolio1 .portfolio_layer p{
+    font-size: 17px;
+    margin: 3rem 0 1rem;
+}
+.portfolio1.portfolio_layer a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--text-color);
+    border-radius: 50%;
+    margin-top: 20px;
+    text-decoration: none;
+    /* font-size: 20px; */
+
+}
+.portfolio1 .portfolio_layer a i{
+    font-size: 2rem;
+    color: var(--second-bg-color);
+}
+.footer1{
+    background: rgb(4,1,56);
+    background: linear-gradient(90deg, rgb(46, 43, 99) 0%, rgba(141,141,173,1) 100%, rgba(16,155,192,1) 100%, rgba(0,212,255,1) 100%);
+    color: #a1b6d4;
+
+}
+.footer1 h3 a{
+    color: #a1b6d4 !important;
+}
+
+.footer1 .spanf{
+    color:black;
+}
+.footer1 h1{
+    position: relative;
+    bottom: 10px;
+}
+.footer1 .nav-link{
+    position: relative;
+    right: 12px;
+    color: #a1b6d4;
+}
+.footer1 .col-md-2{
+    position: relative;
+    top: 30px;
+}
+.footer1 .col-md-4 h6 a{
+    text-decoration: none;
+    color: #a1b6d4 !important;
+
+}
+.footer1 .col-md-4 p a{
+    text-decoration: none;
+    color: #a1b6d4 !important;
+}
+
+/* prewedding */
+
+.prewed1{
+    background-image: url('https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg');
+    height: 500px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.prewed1 h1{
+    position: relative;
+    left: 30px;
+    top: 150px;
+    color: #1b264c;
+}
+.prewed1 .span0{
+    color: #7987bd;
+}
+.prewed1 .nav-link{
+    text-decoration: none;
+    color: #1b264c;
+    position: relative;
+    top: 160px;
+    left: 20px;
+    font-size: 20px;
+}
+.prewed1 .nav-link:hover{
+    color: #7987bd;
+}
+.prewed2 .container h2{
+    color: rgb(4,1,56);
+}
+.prewed2 .container .spanpre1{
+    color: #5a6ba9;
+}
+.prewed2 .container h5{
+    color: rgb(4,1,56);
+    margin-top: 20px;
+}
+.prewed2 .container .spanpre2{
+    color: #5a6ba9;
+}
+
+.prewed2 .row1{
+    background-color: #7987bd;
+}
+.prewed2 .row2{
+    background-color: #7987bd;
+}
+
+/* maternity */
+
+.maternity1{
+    background-image: url('https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg');
+    height: 500px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.maternity1 h1{
+    position: relative;
+    left: 30px;
+    top: 150px;
+    color: #1b264c;
+}
+.maternity1 .span0{
+    color: #7987bd;
+}
+.maternity1 .nav-link{
+    text-decoration: none;
+    color: #1b264c;
+    position: relative;
+    top: 160px;
+    left: 20px;
+    font-size: 20px;
+}
+.maternity1 .nav-link:hover{
+    color: #7987bd;
+}
+
+/* other */
+.other1{
+    background-image: url('https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg');
+    height: 500px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.other1 h1{
+    position: relative;
+    left: 30px;
+    top: 150px;
+    color: #1b264c;
+}
+.other1 .span0{
+    color: #7987bd;
+}
+.other1 .nav-link{
+    text-decoration: none;
+    color: #1b264c;
+    position: relative;
+    top: 160px;
+    left: 20px;
+    font-size: 20px;
+}
+.other1 .nav-link:hover{
+    color: #7987bd;
+}
+
+.other2 .row1{
+    background-color: #7987bd;
+}
+.other2 .row2{
+    background-color: #7987bd;
+}
+
+/* Owner */
+.owner1{
+    background-image: url('https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg');
+    height: 500px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.owner1 h1{
+    position: relative;
+    left: 50px;
+    top: 150px;
+    color: #1b264c;
+}
+.owner1 .span0{
+    color: #7987bd;
+}
+.owner1 .nav-link{
+    text-decoration: none;
+    color: #1b264c;
+    position: relative;
+    top: 160px;
+    left: 40px;
+    font-size: 20px;
+}
+.owner1 .nav-link:hover{
+    color: #7987bd;
+}
+.owner2 h2{
+   
+    color: #1b264c;
+}
+.owner2 .spano1{
+    color: #7987bd;
+}
+
+.owner3 .row1{
+    background-color: #444e75;
+}
+.owner3 .row2{
+    background-color: #7987bd;
+}
+.owner3 img{
+    border-radius: 10px;
+}
+
+/* Our Designer */
+.designer1{
+    background-image: url('https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg');
+    height: 500px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.designer1 h1{
+    position: relative;
+    left: 30px;
+    top: 150px;
+    color: #1b264c;
+}
+.designer1 .span0{
+    color: #7987bd;
+}
+.designer1 .nav-link{
+    text-decoration: none;
+    color: #1b264c;
+    position: relative;
+    top: 160px;
+    left: 20px;
+    font-size: 20px;
+}
+.designer1 .nav-link:hover{
+    color: #7987bd;
+}
+.designer2 h2{
+   
+    color: #1b264c;
+}
+.designer2 .spano1{
+    color: #7987bd;
+}
+.designer3 .row1{
+    background-color: #444e75;
+}
+.designer3 .row2{
+    background-color: #7987bd;
+}
+.designer3 p{
+    font-size: 15px;
+}
+.designer3 img{
+    border-radius: 10px;
+}
+
+/* our ambassador */
+.ambassador1{
+    background-image: url('https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg');
+    height: 500px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.ambassador1 h1{
+    position: relative;
+    left: 30px;
+    top: 150px;
+    color: #1b264c;
+}
+.ambassador1 .span0{
+    color: #7987bd;
+}
+.ambassador1 .nav-link{
+    color: #1b264c;
+    position: relative;
+    top: 160px;
+    left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.ambassador1 .nav-link:hover{
+    color: #7987bd;
+}
+.designer2 h2{
+   
+    color: #1b264c;
+}
+.designer2 .spano1{
+    color: #7987bd;
+}
+.ambassador3 .row1{
+    background-color: #444e75;
+}
+.ambassador3 .row2{
+    background-color: #7987bd;
+}
+.ambassador3 img{
+    border-radius: 10px;
+}
+
+/* fixed buttons */
+
+.buttons{
+    position: fixed;
+    top: 230px;
+    right: 6px;
+    list-style-type: none;
+}
+.buttons .btn1{
+    background: rgb(4,1,56);
+    background: linear-gradient(90deg, rgba(4,1,56,1) 0%, rgba(141,141,173,1) 100%, rgba(16,155,192,1) 100%, rgba(0,212,255,1) 100%);
+    color: #a1b6d4;
+    border: none;
+    width: 40px;
+    height: 40px;
+    transition-duration: 0.5s;
+}
+.buttons .btn1:hover{
+   border-radius: 50%;
+   background: rgb(4,1,56);
+}
+.buttons .btn1 i{
+    font-size: 20px;
+}
+.buttons .btn2{
+    background: rgb(4,1,56);
+    background: linear-gradient(90deg, rgba(4,1,56,1) 0%, rgba(141,141,173,1) 100%, rgba(16,155,192,1) 100%, rgba(0,212,255,1) 100%);
+    color: #a1b6d4;
+    border: none;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    transition-duration: 0.5s;
+}
+.buttons .btn2:hover{
+   border-radius: 50%;
+   background: rgb(4,1,56);
+}
+.buttons .btn2 i{
+    font-size: 20px;
+}
+.buttons .btn3{
+    background: rgb(4,1,56);
+    background: linear-gradient(90deg, rgba(4,1,56,1) 0%, rgba(141,141,173,1) 100%, rgba(16,155,192,1) 100%, rgba(0,212,255,1) 100%) !important;
+    color: #a1b6d4;
+    border: none;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    transition-duration: 0.5s;
+}
+.buttons .btn3:hover{
+   border-radius: 50%;
+   background: rgb(4,1,56) !important;
+}
+.buttons .btn3 i{
+    font-size: 20px;
+}
+/* footer end */
+.footerend{
+    background: rgb(4,1,56);
+    color: #a1b6d4;
+}
+.footerend1{
+    background: rgb(162, 159, 220);
+    color: rgb(4,1,56);
+}
+.footerend1 a{
+    text-decoration: none;
+    color: #1b264c;
+    font-weight: bold;
+}
+
+@media(max-width: 667px){
+    .nav2 .container-fluid .col-md-3 h4{
+        font-size: 19px;
+        margin-left: 20px;
+    }
+    .nav2 .container-fluid .col-md-3 .span1{
+        font-size: 20px;
+    }
+    .nav2 .navbar-toggler{
+        position: relative;
+        left: 150px;
+        top: 7px;
+    }
+    .index1 .carousel-inner img{
+        height: 300px;
+    }
+    .portfolio_container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        gap: 2.5rem ;
+    }
+    .portfolio1 .portfolio_container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        gap: 2.5rem ;
+    }
+    .footer1 .col-md-2{
+        position: relative;
+        left: 37px;
+        top: 10px;
+    }
+    .footer1 .col-md-4{
+        position: relative;
+        left: 8px;
+    }
+    .footerend p{
+        font-size: 10px;
+    }
+   
+    
+    .prewed1{
+        background-image: url('https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg');
+        height: 300px;
+        width: 100%;
+        background-size: 100% 100%;
+    }
+    .maternity1{
+        background-image: url('https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg');
+        height: 300px;
+        width: 100%;
+        background-size: 100% 100%;
+    }
+    .owner1{
+        background-image: url('https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg');
+        height: 300px;
+        width: 100%;
+        background-size: 100% 100%;
+    }
+    .designer1{
+        background-image: url('https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg');
+        height: 300px;
+        width: 100%;
+        background-size: 100% 100%;
+    }
+    .ambassador1{
+        background-image: url('https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg');
+        height: 300px;
+        width: 100%;
+        background-size: 100% 100%;
+    }
+    .other1{
+        background-image: url('https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg');
+        height: 300px;
+        width: 100%;
+        background-size: 100% 100%;
+    }
+    .designer1 h5{
+        position: relative;
+        color: #1b264c;
+        top: 100px;
+        left: 20px;
+        font-weight: bold;
+    }
+    .designer1 h5 .span02{
+        color: #7987bd;
+    }
+    .designer1 .nav-link1{
+        position: relative;
+        top: 100px;
+        left: 20px;
+        color: #1b264c;
+        font-weight: bold;
+        text-decoration: none;
+    /* color: #7987bd; */
+    }
+    .owner1 h5{
+        color: #1b264c;
+        position: relative;
+        top: 100px;
+        left: 20px;
+        font-weight: bold;
+    }
+    .owner1 h5 .span02{
+        color: #7987bd;
+    }
+    .owner1 .nav-link1{
+        position: relative;
+        top: 100px;
+        left: 20px;
+        color: #1b264c;
+        font-weight: bold;
+        text-decoration: none;
+    /* color: #7987bd; */
+    }
+    .ambassador1 h5{
+        color: #1b264c;
+        position: relative;
+        top: 100px;
+        left: 20px;
+        font-weight: bold;
+    }
+    .ambassador1 h5 .span02{
+        color: #7987bd;
+    }
+    .ambassador1 .nav-link1{
+        position: relative;
+        top: 100px;
+        left: 20px;
+        color: #1b264c;
+        font-weight: bold;
+        text-decoration: none;
+    /* color: #7987bd; */
+    }
+    .prewed1 h5{
+        color: #1b264c;
+        position: relative;
+        top: 100px;
+        left: 20px;
+        font-weight: bold;
+    }
+    .prewed1 h5 .span02{
+        color: #7987bd;
+    }
+    .prewed1 .nav-link1{
+        position: relative;
+        top: 100px;
+        left: 20px;
+        color: #1b264c;
+        font-weight: bold;
+        text-decoration: none;
+    /* color: #7987bd; */
+    }
+    .maternity1 h5{
+        color: #1b264c;
+        position: relative;
+        top: 100px;
+        left: 20px;
+        font-weight: bold;
+    }
+    .maternity1 h5 .span02{
+        color: #7987bd;
+    }
+    .maternity1 .nav-link1{
+        position: relative;
+        top: 100px;
+        left: 20px;
+        color: #1b264c;
+        font-weight: bold;
+        text-decoration: none;
+    /* color: #7987bd; */
+    }
+    .other1 h5{
+        color: #1b264c;
+        position: relative;
+        top: 100px;
+        left: 20px;
+        font-weight: bold;
+    }
+    .other1 h5 .span02{
+        color: #7987bd;
+    }
+    .other1 .nav-link1{
+        position: relative;
+        top: 100px;
+        left: 20px;
+        color: #1b264c;
+        font-weight: bold;
+        text-decoration: none;
+    /* color: #7987bd; */
+    }
+}

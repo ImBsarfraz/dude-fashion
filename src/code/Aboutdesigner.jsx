@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./style.css";
 
 export default function Aboutdesigner(){
+    const [designerData1,setdesignerData1] = useState([]);
+
+    useEffect(()=>{
+        setdesignerData1(
+           {
+            "img":"img/designer.jpg.png",
+            "heading":"Meet Our Creative Force: Swapnil Bhosle",
+            "info":"Step into the world of The Branded Choice Dude Fashion, where innovation meets style and tradition blends seamlessly with contemporary flair. At the heart of our brand stands Swapnil Bhosle, a visionary designer renowned for his unmatched creativity and passion for fashion.With a keen eye for detail and an unwavering commitment to excellence, Swapnil brings forth a captivating blend of sophistication and edgy charm in every creation. Drawing inspiration from diverse cultures, art forms, and global trends, he weaves magic into each design, turning dreams into reality for our discerning clientele. As the driving force behind The Branded Choice Dude Fashion, Swapnil Bhosle brings years of experience and a fresh perspective to the fashion landscape. His dedication to craftsmanship, paired with a relentless pursuit of perfection, sets our brand apart, making every ensemble a masterpiece in its own right.Join us on a journey of style and elegance, curated by the visionary mind of Swapnil Bhosle. Experience the allure of bespoke fashion and discover the epitome of sartorial excellence at The Branded Choice Dude Fashion.Welcome to a world where style knows no bounds, and every outfit tells a story. Welcome to The Branded Choice Dude Fashion."
+           }
+        )
+    },[]);
     return(
         <>
        <section className="designer1">
@@ -31,20 +42,11 @@ export default function Aboutdesigner(){
             <div className="container">
                 <div className="row row1">
                    <div className="col-6 p-4">
-                    <img src="img/designer.jpg.png" width={"100%"} />
+                    <img src={designerData1.img} width={"100%"} />
                    </div>
                    <div className="col-6 p-4">
-                    <h4 className="mt-4">Meet Our Creative Force: Swapnil Bhosle</h4>
-                    <p className="mt-4">Step into the world of The Branded Choice Dude Fashion, where innovation meets style and tradition blends seamlessly with contemporary flair. At the heart of our brand stands Swapnil Bhosle, a visionary designer renowned for his unmatched creativity and passion for fashion.
-
-                        With a keen eye for detail and an unwavering commitment to excellence, Swapnil brings forth a captivating blend of sophistication and edgy charm in every creation. Drawing inspiration from diverse cultures, art forms, and global trends, he weaves magic into each design, turning dreams into reality for our discerning clientele.
-
-                        As the driving force behind The Branded Choice Dude Fashion, Swapnil Bhosle brings years of experience and a fresh perspective to the fashion landscape. His dedication to craftsmanship, paired with a relentless pursuit of perfection, sets our brand apart, making every ensemble a masterpiece in its own right.
-
-                        Join us on a journey of style and elegance, curated by the visionary mind of Swapnil Bhosle. Experience the allure of bespoke fashion and discover the epitome of sartorial excellence at The Branded Choice Dude Fashion.
-
-                        Welcome to a world where style knows no bounds, and every outfit tells a story. Welcome to The Branded Choice Dude Fashion.</p>
-                    
+                    <h4 className="mt-4">{designerData1.heading}</h4>
+                    <p className="mt-4">{designerData1.info}</p>
                    </div>
                 </div>
             </div>

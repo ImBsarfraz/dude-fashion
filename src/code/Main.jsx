@@ -7,6 +7,7 @@ import Aboutambassador from "./Aboutambassador.jsx";
 import Prewedding from "./Prewedding.jsx";
 import Maternity from "./Maternity.jsx";
 import Other from "./Other.jsx";
+import Kids from "./Kids.jsx";
 import Contactus from "./Contactus.jsx";
 import Footer from "./Footer.jsx";
 import "./style.css";
@@ -26,6 +27,7 @@ export default function Main(){
                 <Route path="/prewedding" element={<Prewedding></Prewedding>}></Route>
                 <Route path="/maternity" element={<Maternity></Maternity>}></Route>
                 <Route path="/other" element={<Other></Other>}></Route>
+                <Route path="/kids" element={<Kids></Kids>}></Route>
                 <Route path="/contactus" element={<Contactus></Contactus>}></Route>
             </Routes>
             <Footer></Footer>

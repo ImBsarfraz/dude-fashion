@@ -1,8 +1,316 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./style.css";
 
 export default function Maternity(){
+    const [maternityData1,setmaternityData1] = useState([]);
+    const [maternityData2,setmaternityData2] = useState([]);
+
+    useEffect(()=>{
+        setmaternityData1(
+            [
+                {
+                    "image":"img/maternity1.jpg",
+                    "name":"Pink Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity2.jpg",
+                    "name":"Pink Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity17.jpg",
+                    "name":"Pink Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity32.jpg",
+                    "name":"Black-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity4.jpg",
+                    "name":"Black Red-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity5.jpg",
+                    "name":"Black Red-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity7.jpg",
+                    "name":"Black Red-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity10.jpg",
+                    "name":"Pink-RedShadow-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity23.jpg",
+                    "name":"Offwhite Black-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity19.jpg",
+                    "name":"Yellow-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity26.jpg",
+                    "name":"Offwhite Black-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity21.jpg",
+                    "name":"Yellow-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity22.jpg",
+                    "name":"Black Yellow-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity25.jpg",
+                    "name":"Black-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity31.jpg",
+                    "name":"Black-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity32.jpg",
+                    "name":"Black-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity35.jpg",
+                    "name":"Green Yellow-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity29.jpg",
+                    "name":"Red-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity36.jpg",
+                    "name":"Green Yellow-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity30.jpg",
+                    "name":"Red-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity37.jpg",
+                    "name":"Pink-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity38.jpg",
+                    "name":"Purple-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity33.jpg",
+                    "name":"Black-Blue-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity39.jpg",
+                    "name":"Blue-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity40.jpg",
+                    "name":"Simple-Blue Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity52.jpg",
+                    "name":"Blue-Yellow Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity41.jpg",
+                    "name":"Blue-Floral Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity49.jpg",
+                    "name":"Black-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity43.jpg",
+                    "name":"Black-Silver-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity47.jpg",
+                    "name":"Red-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity34.jpg",
+                    "name":"Black-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity48.jpg",
+                    "name":"Red-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                
+            ]
+        )
+        setmaternityData2(
+            [
+                {
+                    "image":"img/maternity6.jpg",
+                    "name":"Black Red-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity8.jpg",
+                    "name":"Black Blue-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity9.jpg",
+                    "name":"Black Blue-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity11.jpg",
+                    "name":"Pink-RedShadow Gown",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity42.jpg",
+                    "name":"Black Red-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity44.jpg",
+                    "name":"Black Black-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity50.jpg",
+                    "name":"Red-Longtail Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity51.jpg",
+                    "name":"Black-Red Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity53.jpg",
+                    "name":"Offwhite Black-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/maternity54.jpg",
+                    "name":"Red-Longtail Gown",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+            ]
+        )
+    })
     return(
         <>
         {/* maternity section1 */}
@@ -13,7 +321,7 @@ export default function Maternity(){
                     <h1 className="d-none d-md-block">Mater<span className="span0">nity</span></h1>
                         <h5 className="d-block d-md-none">Mater<span className="span02">nity</span></h5>
                         <NavLink className="nav-link d-none d-md-block" to="/">Home <span className="span01">/ Maternity</span></NavLink>
-                        <NavLink className="nav-link1 d-block d-md-none" to="/">Home <span className="span03">/ Maternity</span></NavLink>
+                        <NavLink className="nav-link1 zd-block d-md-none" to="/">Home <span className="span03">/ Maternity</span></NavLink>
                     </div>
                 </div>
             </div>
@@ -21,395 +329,51 @@ export default function Maternity(){
 
 {/* Maternity section2 */}
 
-<section className="portfolio mt-5" id="portfolio">
+<section className="portfolio" id="portfolio">
         <h2 className="heading">Maternity <span>Concept</span></h2>
-        
         <div className="portfolio_container">
-        <div className="portfolio_box">
-            <img src="img/maternity1.jpg" alt=""/>
-            <div className="portfolio_layer">
-                <h6>Pink Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
+            {
+                maternityData1.map((product)=>{
+                    return(
+                        <>
+                        <div className="portfolio_box">
+                            <img src={product.image} alt=""/>
+                            <div className="portfolio_layer">
+                                <h6>{product.name}</h6>
+                                <p>{product.details}</p>
+                                <a href={product.phone}><i className={product.icon}></i></a>
+                            </div>
+                        </div>
+                        </>
+                    )
+                })
+            }
         </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity2.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Pink Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity17.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Pink Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity32.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-        <div className="portfolio_box">
-            <img src="img/maternity4.jpg" alt=""/>
-            <div className="portfolio_layer">
-                <h6>Black Red-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity5.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black Red-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity7.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black Red-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity10.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Pink-RedShadow-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-        <div className="portfolio_box">
-            <img src="img/maternity23.jpg" alt=""/>
-            <div className="portfolio_layer">
-                <h6>Offwhite Black-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity19.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black Yellow-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity26.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Offwhite Black-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity21.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black Yellow-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-        <div className="portfolio_box">
-            <img src="img/maternity22.jpg" alt=""/>
-            <div className="portfolio_layer">
-                <h6>Black Yellow-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity25.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Offwhite Black-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity31.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity32.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-        <div className="portfolio_box">
-            <img src="img/maternity35.jpg" alt=""/>
-            <div className="portfolio_layer">
-                <h6>Green Yellow-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity29.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Red-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity36.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Green Yellow-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity30.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black-Pink Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-        <div className="portfolio_box">
-            <img src="img/maternity37.jpg" alt=""/>
-            <div className="portfolio_layer">
-                <h6>Red-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity38.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Pink-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity33.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Purple-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity39.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black-Blue-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-        <div className="portfolio_box">
-            <img src="img/maternity40.jpg" alt=""/>
-            <div className="portfolio_layer">
-                <h6>Simple-Blue Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity52.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Simple-Blue Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity41.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Yellow-Longtail Gown</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity49.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black-Blue-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-        <div className="portfolio_box">
-            <img src="img/maternity43.jpg" alt=""/>
-            <div className="portfolio_layer">
-                <h6>Black-Silver-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity47.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Offwhite-Black Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity34.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Red-Floral Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity48.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        
-              
-    </div>
     </section>
 
     {/* Maternity section3 */}
 
 
-<section className="portfolio1 mt-5" id="portfolio">
+<section className="portfolio1" id="portfolio">
         <h2 className="heading">Maternity <span>Concept</span></h2>
-
-        <div className="portfolio_container">
-
-
-            <div className="portfolio_box">
-            <img src="img/maternity6.jpg" alt=""/>
-            <div className="portfolio_layer">
-                <h6>Black Red-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
+        <div className="portfolio_container">\
+            {
+                maternityData2.map((product)=>{
+                    return(
+                        <>
+                        <div className="portfolio_box">
+                            <img src={product.image} alt=""/>
+                            <div className="portfolio_layer">
+                                <h6>{product.name}</h6>
+                                <p>{product.details}</p>
+                                <a href={product.phone}><i className={product.icon}></i></a>
+                            </div>
+                        </div>
+                        </>
+                    )
+                })
+            }
         </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity8.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black Blue-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity9.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black Blue-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity11.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Pink-RedShadow Gown</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-            <div className="portfolio_box">
-            <img src="img/maternity42.jpg" alt=""/>
-            <div className="portfolio_layer">
-                <h6>Black Red-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity44.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black Black-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity50.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Red-Longtail Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity51.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black-Red Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-        <div className="portfolio_box">
-            <img src="img/maternity53.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Offwhite Black-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/maternity54.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Red-Longtail Gown</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-        
-              
-    </div>
     </section>
 
         </>

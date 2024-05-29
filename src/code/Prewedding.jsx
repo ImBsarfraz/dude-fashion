@@ -1,9 +1,346 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./style.css";
 import { NavLink } from "react-router-dom";
 
 
 export default function Prewedding(){
+    const [punjabiConcept,setpunjabiConcept] = useState([]);
+    const [southindianConcept,setsouthindianConcept] = useState([]);
+    const [traditionalConcept,settraditionalConcept] = useState([]);
+    const [westernConcept1,setwesternConcept1] = useState([]);
+    const [westernConcept2,setwesternConcept2] = useState([]);
+
+    useEffect(()=>{
+        setpunjabiConcept(
+            [
+                {
+                    "image":"img/couple1.png",
+                    "name":"Black-Red Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple15.png",
+                    "name":"Black-Red Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple8.png",
+                    "name":"Black-Red Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple17.png",
+                    "name":"Black-Red Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple66.jpg",
+                    "name":"Black-Pink Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple67.jpg",
+                    "name":"Black-Pink Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple68.jpg",
+                    "name":"Black-Pink Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple69.jpg",
+                    "name":"Black-Pink Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+            ]
+        )
+        setsouthindianConcept(
+            [
+                {
+                    "image":"img/couple64.jpg",
+                    "name":"South-Indian Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple62.jpg",
+                    "name":"South-Indian Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple63.jpg",
+                    "name":"South-Indian Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple65.jpg",
+                    "name":"South-Indian Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple26.jpg",
+                    "name":"South-Indian Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple73.jpg",
+                    "name":"South-Indian Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple74.jpg",
+                    "name":"South-Indian Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple80.jpg",
+                    "name":"South-Indian Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+            ]
+        )
+        settraditionalConcept(
+            [
+                {
+                    "image":"img/couple29.jpg",
+                    "name":"Gold-White Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple45.jpg",
+                    "name":"Gold-Red Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple28.jpg",
+                    "name":"Gold-White Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple46.jpg",
+                    "name":"Gold-Red Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple28.jpg",
+                    "name":"Gold-White Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple40.jpg",
+                    "name":"Blue-Red Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple41.jpg",
+                    "name":"Blue-Red Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple42.jpg",
+                    "name":"Blue-Red Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+            ]
+        )
+        setwesternConcept1(
+            [
+                {
+                    "image":"img/couple34.jpg",
+                    "name":"Blue-Red Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple37.jpg",
+                    "name":"Vine Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple35.jpg",
+                    "name":"Blue-Red Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple38.jpg",
+                    "name":"Vine Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple44.jpg",
+                    "name":"Grey-Black Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple75.jpg",
+                    "name":"Black-Red Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple52.jpg",
+                    "name":"Grey-Black Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple76.jpg",
+                    "name":"Black-Red Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple55.jpg",
+                    "name":"White-Red-Shadow Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple49.jpg",
+                    "name":"Green-Red Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple56.jpg",
+                    "name":"White-Red-Shadow Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple57.jpg",
+                    "name":"White-Red-Shadow Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+            ]
+        )
+        setwesternConcept2(
+            [
+                {
+                    "image":"img/couple60.jpg",
+                    "name":"Green Golden-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple61.jpg",
+                    "name":"Green Golden-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple70.jpg",
+                    "name":"Grey vine-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple71.jpg",
+                    "name":"Grey vine-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple81.jpg",
+                    "name":"Green Yellow-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple82.jpg",
+                    "name":"Green Yellow-Gown Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple58.jpg",
+                    "name":"Grey Black-Ghagra Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+                {
+                    "image":"img/couple59.jpg",
+                    "name":"Grey Black-Ghagra Concept",
+                    "details":"For More Details Click On The Below Icon",
+                    "phone":"tel:7843030127",
+                    "icon":"fa fa-phone",
+                },
+            ]
+        )
+    },[]);
+
     return(
         <>
         {/* Pre Wedding Section1 */}
@@ -23,359 +360,99 @@ export default function Prewedding(){
 
         {/* pre wedding section2 */}
 
-        <section className="portfolio mt-5" id="portfolio">
+        <section className="portfolio" id="portfolio">
         <h2 className="heading">Punjabi <span>Concept</span></h2>
-        
         <div className="portfolio_container">
-        <div className="portfolio_box">
-            <img src="img/couple1.png" alt=""/>
-            <div className="portfolio_layer">
-                <h6>Black-Red Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
+            {
+                punjabiConcept.map((product)=>{
+                    return(
+                        <>
+                        <div className="portfolio_box">
+                            <img src={product.image} alt=""/>
+                            <div className="portfolio_layer">
+                                <h6>{product.name}</h6>
+                                <p>{product.details}</p>
+                                <a href={product.phone}><i className={product.icon}></i></a>
+                            </div>
+                        </div>
+                        </>
+                    )
+                })
+            } 
         </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple15.png" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black-Red Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple8.png" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black-Red Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple17.png" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black-Red Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-        <div className="portfolio_box">
-            <img src="img/couple66.jpg" alt=""/>
-            <div className="portfolio_layer">
-                <h6>Black-Pink Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple67.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black-Pink Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple68.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black-Pink Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple69.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black-Pink Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        
-              
-    </div>
     </section>
 
 
         {/* pre wedding section3 */}
 
-        <section className="portfolio mt-5" id="portfolio">
+        <section className="portfolio" id="portfolio">
         <h2 className="heading"><span>South Indian</span> Concept</h2>
         
         <div className="portfolio_container">
-        <div className="portfolio_box">
-            <img src="img/couple64.jpg" alt=""/>
-            <div className="portfolio_layer">
-                <h6>South-Indian Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
+            {
+                southindianConcept.map((product)=>{
+                    return(
+                        <>
+                        <div className="portfolio_box">
+                            <img src={product.image} alt=""/>
+                            <div className="portfolio_layer">
+                                <h6>{product.name}</h6>
+                                <p>{product.details}</p>
+                                <a href={product.phone}><i className={product.icon}></i></a>
+                            </div>
+                        </div>
+                        </>
+                    )
+                })
+            }
         </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple62.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>South-Indian Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple63.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>South-Indian Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple65.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>South-Indian Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-        <div className="portfolio_box">
-            <img src="img/couple26.jpg" alt=""/>
-            <div className="portfolio_layer">
-                <h6>South-Indian Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple73.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>South-Indian Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple74.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>South-Indian Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple80.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>South-Indian Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        
-              
-    </div>
     </section>
 
         {/* pre wedding section3 */}
 
-        <section className="portfolio mt-5" id="portfolio">
+    <section className="portfolio" id="portfolio">
         <h2 className="heading">Traditional <span>Concept</span></h2>
-        
         <div className="portfolio_container">
-        <div className="portfolio_box">
-            <img src="img/couple29.jpg" alt=""/>
-            <div className="portfolio_layer">
-                <h6>Gold-White Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
+            {
+                traditionalConcept.map((product)=>{
+                    return(
+                        <>
+                        <div className="portfolio_box">
+                            <img src={product.image} alt=""/>
+                            <div className="portfolio_layer">
+                                <h6>{product.name}</h6>
+                                <p>{product.details}</p>
+                                <a href={product.phone}><i className={product.icon}></i></a>
+                            </div>
+                        </div>
+                        </>
+                    )
+                })
+            } 
         </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple45.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Gold-Red Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple28.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Gold-White Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple46.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Gold-Red Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-        <div className="portfolio_box">
-            <img src="img/couple28.jpg" alt=""/>
-            <div className="portfolio_layer">
-                <h6>Gold-White Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple40.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Blue-Red Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple41.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Blue-Red Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple42.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Blue-Red Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>        
-    </div>
     </section>
         {/* pre wedding section4 */}
 
-        <section className="portfolio mt-5" id="portfolio">
+    <section className="portfolio" id="portfolio">
         <h2 className="heading">Western <span>Concept</span></h2>
-        
         <div className="portfolio_container">
-        <div className="portfolio_box">
-            <img src="img/couple34.jpg" alt=""/>
-            <div className="portfolio_layer">
-                <h6>Blue-Red Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
+            {
+                westernConcept1.map((product)=>{
+                    return(
+                        <>
+                        <div className="portfolio_box">
+                            <img src={product.image} alt=""/>
+                            <div className="portfolio_layer">
+                                <h6>{product.name}</h6>
+                                <p>{product.details}</p>
+                                <a href={product.phone}><i className={product.icon}></i></a>
+                            </div>
+                        </div>
+                        </>
+                    )
+                })
+            } 
         </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple37.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Vine Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple35.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Blue-Red Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple38.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Vine Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-        <div className="portfolio_box">
-            <img src="img/couple44.jpg" alt=""/>
-            <div className="portfolio_layer">
-                <h6>Grey Black Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple75.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Black-Red Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple52.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Grey-Black Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple76.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Blue-Red Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>        
-        <div className="portfolio_box">
-            <img src="img/couple55.jpg" alt=""/>
-            <div className="portfolio_layer">
-                <h6>White-Red-Shadow Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple49.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Green-Red Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple56.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>White-Red-Shadow Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple57.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Green-Red Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>        
-    </div>
     </section>
 
     {/* Prewedding Section5 */}
@@ -383,79 +460,23 @@ export default function Prewedding(){
     <section className="portfolio1" id="portfolio">
          
          <div className="portfolio_container">
-            
-            <div className="portfolio_box">
-            <img src="img/couple60.jpg" alt=""/>
-            <div className="portfolio_layer">
-                <h6>Green Golden-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
+            {
+                westernConcept2.map((product)=>{
+                    return(
+                        <>
+                        <div className="portfolio_box">
+                            <img src={product.image} alt=""/>
+                            <div className="portfolio_layer">
+                                <h6>{product.name}</h6>
+                                <p>{product.details}</p>
+                                <a href={product.phone}><i className={product.icon}></i></a>
+                            </div>
+                        </div>
+                        </>
+                    )
+                })
+            } 
         </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple61.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Green Golden-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple70.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Grey vine-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple71.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Grey vine-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-            <div className="portfolio_box">
-            <img src="img/couple81.jpg" alt=""/>
-            <div className="portfolio_layer">
-                <h6>Green Yellow-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple82.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Green Yellow-Gown Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple58.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Grey Black-Ghagra Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-                     <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-
-        <div className="portfolio_box">
-            <img src="img/couple59.jpg" alt=""/>
-            <div className="portfolio_layer">
-            <h6>Grey Black-Ghagra Concept</h6>
-                <p>For Details Click On The Below Icon</p>
-        <a href="tel:+7843030127"><i className="fa fa-phone"></i></a>
-            </div>
-        </div>
-        
-    </div>
     </section>
         </>
     )

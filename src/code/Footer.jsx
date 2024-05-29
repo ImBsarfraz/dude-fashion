@@ -16,7 +16,7 @@ export default function Footer(){
         
         {/* footer main */}
 
-        <section className="footer1 mt-2 mt-md-5 mb-0">
+        <section className="footer1">
         <div className="container-fluid footer ">
             <div className="row">
                 <div className="col-md-4 mt-0 mt-md-4 p-5 mt-md-1">

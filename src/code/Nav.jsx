@@ -56,7 +56,7 @@ export default function Nav(){
                                         <NavLink className="nav-link" to="/maternity">Maternity</NavLink>
                                     </li>
                                     <li className="nav-item active">
-                                        <NavLink className="nav-link" to="/other">Kids</NavLink>
+                                        <NavLink className="nav-link" to="/kids">Kids</NavLink>
                                     </li>
                                     <li className="nav-item active">
                                         <NavLink className="nav-link" to="/contactus">Contact</NavLink>

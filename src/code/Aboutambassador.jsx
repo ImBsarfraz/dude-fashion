@@ -1,8 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./style.css";
 
 export default function Aboutambassador(){
+    const [ambassadorData1,setambassadorData1] = useState([]);
+
+    useEffect(()=>{
+        setambassadorData1(
+           {
+            "img":"img/ambassador.png",
+            "heading":"Introducing Our Icon of Elegance: Dhanashree Wagh",
+            "info1":"Elegance personified, grace unparalleled—meet Dhanashree Wagh, the radiant face and epitome of style at The Branded Choice Dude Fashion. As our esteemed Brand Ambassador and the reigning MISS GLAM ICON OF MAHARASHTRA, Dhanashree embodies the essence of sophistication and glamour.",
+            "info2":"With her captivating presence and innate sense of fashion, Dhanashree brings a touch of allure to every ensemble she adorns. Her journey from the runways of Maharashtra to the global stage is a testament to her unwavering dedication and unparalleled talent.",
+            "info3":"At The Branded Choice Dude Fashion, Dhanashree Wagh serves as the beacon of inspiration, guiding fashion enthusiasts towards the pinnacle of style and elegance. Her impeccable taste and flair for the extraordinary elevate our collections, turning heads and setting trends with every stride.", 
+            "info4":"Join us in celebrating the union of beauty and style, as Dhanashree Wagh graces The Branded Choice Dude Fashion with her charm and charisma. Together, let's redefine glamour and leave an indelible mark on the world of fashion.", 
+            "info5":"Welcome to a realm where sophistication meets substance, guided by the luminous presence of Dhanashree Wagh. Welcome to The Branded Choice Dude Fashion.", 
+           }
+        )
+    },[]);
+    
     return(
         <>
         <section className="designer1">
@@ -31,19 +47,19 @@ export default function Aboutambassador(){
             <div className="container">
                 <div className="row row1">
                    <div className="col-6 p-4">
-                    <img src="img/ambassador.png" width={"100%"} />
+                    <img src={ambassadorData1.img} width={"100%"} />
                    </div>
                    <div className="col-6 p-4">
-                    <h4 className="mt-4">Introducing Our Icon of Elegance: Dhnashree Wagh</h4>
-                        <p className="mt-5">Elegance personified, grace unparalleled—meet Dhnashree Wagh, the radiant face and epitome of style at The Branded Choice Dude Fashion. As our esteemed Brand Ambassador and the reigning MISS GLAM ICON OF MAHARASHTRA, Dhnashree embodies the essence of sophistication and glamour.</p>
+                    <h4 className="mt-4">{ambassadorData1.heading}</h4>
+                        <p className="mt-5">{ambassadorData1.info1}</p>
 
-                        <p>With her captivating presence and innate sense of fashion, Dhnashree brings a touch of allure to every ensemble she adorns. Her journey from the runways of Maharashtra to the global stage is a testament to her unwavering dedication and unparalleled talent.</p>
+                        <p>{ambassadorData1.info2}</p>
 
-                        <p>At The Branded Choice Dude Fashion, Dhnashree Wagh serves as the beacon of inspiration, guiding fashion enthusiasts towards the pinnacle of style and elegance. Her impeccable taste and flair for the extraordinary elevate our collections, turning heads and setting trends with every stride.</p>
+                        <p>{ambassadorData1.info3}</p>
 
-                        <p>Join us in celebrating the union of beauty and style, as Dhnashree Wagh graces The Branded Choice Dude Fashion with her charm and charisma. Together, let's redefine glamour and leave an indelible mark on the world of fashion.</p>
+                        <p>{ambassadorData1.info4}</p>
 
-                        <p>Welcome to a realm where sophistication meets substance, guided by the luminous presence of Dhnashree Wagh. Welcome to The Branded Choice Dude Fashion.</p>
+                        <p>{ambassadorData1.info5}</p>
                    </div>
                 </div>
             </div>

@@ -779,199 +779,105 @@ body{
     font-weight: bold;
 }
 
-@media(max-width: 667px){
-    .nav2 .container-fluid .col-md-3 h4{
-        font-size: 19px;
-        margin-left: 20px;
+@media (max-width: 667px) {
+    html, body {
+        overflow-x: hidden;
     }
-    .nav2 .container-fluid .col-md-3 .span1{
+
+    .nav2 .container-fluid .col-md-3 h4 {
+        font-size: 19px;
+        margin-left: 10px;
+    }
+
+    .nav2 .container-fluid .col-md-3 .span1 {
         font-size: 20px;
     }
-    .nav2 .navbar-toggler{
+
+    .nav2 .navbar-toggler {
         position: relative;
-        left: 150px;
+        left: 0; /* reduced from 150px */
         top: 7px;
+        margin-left: auto;
     }
-    .nav2 .nav-link{
+
+    .nav2 .nav-link {
         text-align: center;
     }
-    .index1 .carousel-inner img{
+
+    .index1 .carousel-inner img {
         height: 300px;
+        width: 100%; /* ensure responsive */
+        object-fit: cover;
     }
-    .portfolio_container{
+
+    .portfolio_container,
+    .portfolio1 .portfolio_container {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        align-items: center;
-        gap: 2.5rem ;
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+        padding: 0 10px; /* prevent overflow */
     }
-    .portfolio1 .portfolio_container{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        align-items: center;
-        gap: 2.5rem ;
-    }
-    .footer1 .col-md-2{
+
+    .footer1 .col-md-2,
+    .footer1 .col-md-4 {
         position: relative;
-        left: 37px;
-        top: 10px;
+        left: 0; /* avoid fixed offset */
+        top: auto;
     }
-    .footer1 .col-md-4{
-        position: relative;
-        left: 8px;
-    }
-    .footerend p{
+
+    .footerend p {
         font-size: 10px;
+        padding: 0 10px;
     }
-   
-    
-    .prewed1{
+
+    .prewed1,
+    .maternity1,
+    .owner1,
+    .designer1,
+    .ambassador1,
+    .other1 {
         background-image: url('https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg');
         height: 300px;
         width: 100%;
-        background-size: 100% 100%;
+        background-size: cover;
+        background-position: center;
     }
-    .maternity1{
-        background-image: url('https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg');
-        height: 300px;
-        width: 100%;
-        background-size: 100% 100%;
-    }
-    .owner1{
-        background-image: url('https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg');
-        height: 300px;
-        width: 100%;
-        background-size: 100% 100%;
-    }
-    .designer1{
-        background-image: url('https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg');
-        height: 300px;
-        width: 100%;
-        background-size: 100% 100%;
-    }
-    .ambassador1{
-        background-image: url('https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg');
-        height: 300px;
-        width: 100%;
-        background-size: 100% 100%;
-    }
-    .other1{
-        background-image: url('https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg');
-        height: 300px;
-        width: 100%;
-        background-size: 100% 100%;
-    }
-    .designer1 h5{
+
+    .designer1 h5,
+    .owner1 h5,
+    .ambassador1 h5,
+    .prewed1 h5,
+    .maternity1 h5,
+    .other1 h5 {
         position: relative;
         color: #1b264c;
         top: 100px;
-        left: 20px;
+        left: 10px; /* reduced for mobile */
         font-weight: bold;
+        padding-right: 10px;
     }
-    .designer1 h5 .span02{
+
+    .designer1 h5 .span02,
+    .owner1 h5 .span02,
+    .ambassador1 h5 .span02,
+    .prewed1 h5 .span02,
+    .maternity1 h5 .span02,
+    .other1 h5 .span02 {
         color: #7987bd;
     }
-    .designer1 .nav-link1{
+
+    .designer1 .nav-link1,
+    .owner1 .nav-link1,
+    .ambassador1 .nav-link1,
+    .prewed1 .nav-link1,
+    .maternity1 .nav-link1,
+    .other1 .nav-link1 {
         position: relative;
         top: 100px;
-        left: 20px;
+        left: 10px; /* reduced for mobile */
         color: #1b264c;
         font-weight: bold;
         text-decoration: none;
-    /* color: #7987bd; */
-    }
-    .owner1 h5{
-        color: #1b264c;
-        position: relative;
-        top: 100px;
-        left: 20px;
-        font-weight: bold;
-    }
-    .owner1 h5 .span02{
-        color: #7987bd;
-    }
-    .owner1 .nav-link1{
-        position: relative;
-        top: 100px;
-        left: 20px;
-        color: #1b264c;
-        font-weight: bold;
-        text-decoration: none;
-    /* color: #7987bd; */
-    }
-    .ambassador1 h5{
-        color: #1b264c;
-        position: relative;
-        top: 100px;
-        left: 20px;
-        font-weight: bold;
-    }
-    .ambassador1 h5 .span02{
-        color: #7987bd;
-    }
-    .ambassador1 .nav-link1{
-        position: relative;
-        top: 100px;
-        left: 20px;
-        color: #1b264c;
-        font-weight: bold;
-        text-decoration: none;
-    /* color: #7987bd; */
-    }
-    .prewed1 h5{
-        color: #1b264c;
-        position: relative;
-        top: 100px;
-        left: 20px;
-        font-weight: bold;
-    }
-    .prewed1 h5 .span02{
-        color: #7987bd;
-    }
-    .prewed1 .nav-link1{
-        position: relative;
-        top: 100px;
-        left: 20px;
-        color: #1b264c;
-        font-weight: bold;
-        text-decoration: none;
-    /* color: #7987bd; */
-    }
-    .maternity1 h5{
-        color: #1b264c;
-        position: relative;
-        top: 100px;
-        left: 20px;
-        font-weight: bold;
-    }
-    .maternity1 h5 .span02{
-        color: #7987bd;
-    }
-    .maternity1 .nav-link1{
-        position: relative;
-        top: 100px;
-        left: 20px;
-        color: #1b264c;
-        font-weight: bold;
-        text-decoration: none;
-    /* color: #7987bd; */
-    }
-    .other1 h5{
-        color: #1b264c;
-        position: relative;
-        top: 100px;
-        left: 20px;
-        font-weight: bold;
-    }
-    .other1 h5 .span02{
-        color: #7987bd;
-    }
-    .other1 .nav-link1{
-        position: relative;
-        top: 100px;
-        left: 20px;
-        color: #1b264c;
-        font-weight: bold;
-        text-decoration: none;
-    /* color: #7987bd; */
+        padding-right: 10px;
     }
 }

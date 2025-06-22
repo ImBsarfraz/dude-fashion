@@ -16,17 +16,17 @@ export default function Footer(){
         
         {/* footer main */}
 
-        <section className="footer1">
+        <section className="footer1 p-5">
         <div className="container-fluid footer ">
             <div className="row">
-                <div className="col-md-4 mt-0 mt-md-4 p-5 mt-md-1">
+                <div className="col-md-4 mt-md-1">
                    <h1><span className="spanf">DUDE </span>FASHION</h1>
                     <p className="mt-4 text-justify">The Branded Choice DUDE FASHION Best Rental Service Provider Of Ahmednagar District</p>
                     <h6 className="mt-3"><i class="fa-solid fa-location-dot"></i>  Nalbandkhunt Ahmednagar<br /> Ahmednagar 414001</h6>
                     <p className="mt-3"><a href="tel:+7796404058"><i class="fa-solid fa-phone-flip"></i></a> <a href="tel:+7796404058">7796404058</a> <a href="tel:+7843030127"><i class="fa-solid fa-phone-flip"></i></a> <a href="tel:+7843030127">7843030127</a></p>
                     <p className="mt-3"><a href="https://www.instagram.com/dude_fashion_boutique/"><i class="fa fa-instagram"></i> dude_fashion_boutique</a></p>
                 </div>
-                <div className="col-md-2 mt-0 mt-md-4 p-2 mt-md-1">
+                <div className="col-md-2 mt-md-1">
                     <h6>Links:</h6>
                     <NavLink className="nav-link" to="/">Home</NavLink>
                     <NavLink className="nav-link" to="/aboutowner">About Owner</NavLink>
@@ -36,14 +36,14 @@ export default function Footer(){
                     <NavLink className="nav-link" to="/maternity">Maternity</NavLink> 
                     <NavLink className="nav-link" to="/other">Other</NavLink> 
                 </div>
-                <div className="col-md-2 mt-2 mt-md-4 p-2 mt-md-1">
+                <div className="col-md-2 mt-md-1">
                     <h6>Rent Sevices:</h6>
                     <NavLink className="nav-link" to="/">Wedding</NavLink>
                     <NavLink className="nav-link" to="/prewedding">Pre Wedding</NavLink>
                     <NavLink className="nav-link" to="/maternity">Maternity</NavLink> 
                     <NavLink className="nav-link" to="/other">Other</NavLink> 
                 </div>
-                <div className="col-md-4 mt-2 mt-md-4 p-5 mt-md-1">
+                <div className="col-md-4 mt-md-1">
                     <h6>Follow Us: </h6>
                     <h3 className="mt-4"><a href="https://www.instagram.com/dude_fashion_boutique/"><i className="fa fa-instagram"></i></a> <a href="tel:+7796404058"><i className="fa fa-phone ml-3"></i></a> <a href="https://wa.me/7843030127" target="_blank"><i className="fa fa-whatsapp ml-2"></i></a> <a href="tel:+7843030127"><i className="fa fa-phone ml-2"></i></a></h3>
                     <h6 className="mt-4"><a href="tel:+7796404058">Owner: 7796404058</a></h6>

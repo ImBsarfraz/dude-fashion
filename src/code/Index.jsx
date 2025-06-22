@@ -318,32 +318,14 @@ export default function Index(){
                             </ol>
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <img src="https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg" className="d-block" alt="..."/>
-                                    <div className="carousel-caption d-none d-md-block">
-                                        <h6>THE BRANDED CHOICE</h6>
-                                        <h5>DUDE <span className="spani1">FASHION</span></h5>
-                                        <p>Designer Unisex Boutique. We Give Rental Service For Wedding</p>
-                                    </div>
-                            </div>
-                            <div className="carousel-item">
-                                <img width={"100%"} src="https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg" className="d-block w-100" alt="..."/>
-                                <div className="carousel-caption d-none d-md-block">
-                                <div className="carousel-caption d-none d-md-block">
-                                        <h6>THE BRANDED CHOICE</h6>
-                                        <h5>DUDE <span className="spani1">FASHION</span></h5>
-                                        <p>Designer Unisex Boutique. We Give Rental Service For PreWedding</p>
-                                    </div>
+                                    <img src="https://sdmntprwestus3.oaiusercontent.com/files/00000000-290c-61fd-bd23-4c934162a616/raw?se=2025-06-22T08%3A09%3A27Z&sp=r&sv=2024-08-04&sr=b&scid=620cb12c-41ff-5b94-ac6e-14d2011964c0&skoid=04233560-0ad7-493e-8bf0-1347c317d021&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-21T17%3A27%3A20Z&ske=2025-06-22T17%3A27%3A20Z&sks=b&skv=2024-08-04&sig=paZy6WlDJNka9YvLgYl%2BQdpD/hbpL2E/MJTSTkFI3%2BU%3D" className="d-block" alt="..."/>
                                 </div>
+                            <div className="carousel-item">
+                                <img width={"100%"} src="https://sdmntprwestus3.oaiusercontent.com/files/00000000-b700-61fd-ae25-1e0bf6a32569/raw?se=2025-06-22T08%3A07%3A18Z&sp=r&sv=2024-08-04&sr=b&scid=749c61ce-b9c1-5e0d-b32b-fbb6d8a52748&skoid=04233560-0ad7-493e-8bf0-1347c317d021&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-21T17%3A37%3A22Z&ske=2025-06-22T17%3A37%3A22Z&sks=b&skv=2024-08-04&sig=sY72AxXb5ob3q/DARhvCoQxrB%2B8vlNZ1jB1QzsRIMbk%3D" className="d-block w-100" alt="..."/>
                             </div>
                             <div className="carousel-item">
-                                <img width={"100%"} src="https://eshop.joyalukkas.com/wp-content/uploads/2020/03/Bridal-Slider-Apurva-01re.jpg" className="d-block w-100" alt="..."/>
-                                <div className="carousel-caption d-none d-md-block">
-                                <div className="carousel-caption d-none d-md-block">
-                                        <h6>THE BRANDED CHOICE</h6>
-                                        <h5>DUDE <span className="spani1">FASHION</span></h5>
-                                        <p>Designer Unisex Boutique. We Give Rental Service For Maternity</p>
-                                    </div>
-                            </div>
+                                <img width={"100%"} src="https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-4e74-61f7-a33a-bc8eb3e77f1f/raw?se=2025-06-22T08%3A12%3A18Z&sp=r&sv=2024-08-04&sr=b&scid=0201b471-19a7-5170-8c3c-2675f46439c1&skoid=04233560-0ad7-493e-8bf0-1347c317d021&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-22T02%3A03%3A29Z&ske=2025-06-23T02%3A03%3A29Z&sks=b&skv=2024-08-04&sig=/r2LKGx34rcNRM%2Bj/DJWK9qES7GtjG2ijMT6dPQ61Jc%3D" className="d-block w-100" alt="..."/>
+                                
                         </div>
                     </div>
                                 <button className="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">

@@ -126,10 +126,11 @@ body{
     text-align: center;
 }
 
-.index1 .carousel-inner img{
- width: auto;
- height: auto;
-
+.index1 .carousel-inner img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
 }
 .index1 .carousel-item h6{
     color: rgb(4,1,56);
